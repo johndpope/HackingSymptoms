@@ -11,3 +11,6 @@ Code stored in code/AzureFunctions contains the code used to deploy the Azure Te
 
 ### extract_GSC_HPO_data.ipynb
 This code can be used to create the Gold Standard Corpus + (GSC+) csv file used in analyses. Source data from https://github.com/lasigeBioTM/IHP.
+
+### parseTAResult.py
+This code was used to parse pickled output from Text Analytics for Health called on the GSC+ dataset to retreieve only the HPO information. The Text Analytics for Health Azure Function wrapper was based on this code.

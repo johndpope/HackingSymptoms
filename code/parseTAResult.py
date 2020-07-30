@@ -1,3 +1,6 @@
+import pickle
+import pandas as pd
+
 objects = []
 with (open("text_analytics_responses.pickle", "rb")) as openfile:
     while True:
